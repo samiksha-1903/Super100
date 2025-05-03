@@ -1,0 +1,43 @@
+body {
+    background-color: hsl(60, 100%, 43%);
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: hsl(60, 100%, 43%);
+    padding: 20px;
+    width: 180px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    display: block;
+    width: 120px;
+    background-color: white;
+    border-right: 10px solid black; /* changed from border-left */
+    padding: 5px;
+    text-decoration: none;
+    color: #000080;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  h1 {
+    color: purple;
+  }
