@@ -1,0 +1,161 @@
+/* General */
+.heading-center {
+    text-align: center;
+  }
+  
+  /* Task 1 Table */
+  .task1-table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 100%;
+    background-color: aquamarine;
+    margin-bottom: 30px;
+  }
+  
+  .task1-table th,
+  .task1-table td {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  /* Task 1 Boxes */
+  .task1-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .box-row {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .box {
+    height: 150px;
+    width: 200px;
+    border: 2px solid rgb(166, 210, 99);
+    margin: 10px;
+    border-radius: 20px;
+  }
+  
+  .rounded-30 {
+    border-radius: 30px;
+  }
+  
+  .circle {
+    border-radius: 50%;
+  }
+  
+  .fancy-rounded {
+    border-radius: 10px 30px 10px 30px;
+  }
+  
+  /* Task 2 Vertical Navigation */
+  .task2-wrapper {
+    display: flex;
+  }
+  
+  .vertical-nav {
+    width: 200px;
+    background-color: aqua;
+  }
+  
+  .vertical-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .vertical-nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Horizontal Navigation */
+  .horizontal-nav {
+    background-color: #f0f0f0;
+  }
+  
+  .horizontal-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .horizontal-nav a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Task 3 Table */
+  .task3-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .task3-table th {
+    background-color: #009879;
+    color: white;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .task3-table td {
+    padding: 12px;
+  }
+  
+  .task3-table tr:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+  
+  /* Task 4 Side Navigation */
+  .task4-container {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+  }
+  
+  .task4-sidenav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .task4-sidenav a {
+    margin: 10px 0;
+    padding: 10px 20px;
+    width: 160px;
+    text-decoration: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    transform: translateX(-110px);
+    transition: transform 0.3s ease;
+  }
+  
+  .task4-sidenav a:hover {
+    transform: translateX(0);
+  }
+  
+  .task4-sidenav .home {
+    background-color: #04AA6D;
+  }
+  
+  .task4-sidenav .java {
+    background-color: #2196F3;
+  }
+  
+  .task4-sidenav .css {
+    background-color: #f44336;
+  }
+  
+  .task4-sidenav .html {
+    background-color: #555;
+  }
