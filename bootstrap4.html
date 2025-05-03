@@ -1,0 +1,60 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Task12</title>
+</head>
+<body class="flex h-screen h-200 items-center">
+    <div class="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+    
+        <form class="bg-white p-6 rounded shadow-md space-y-4">
+          <div>
+            <label class="block text-sm font-medium">First Name</label>
+            <input type="text" placeholder="First Name" class="w-full border px-3 py-2 rounded" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">Last Name <span class="text-red-500">*</span></label>
+            <input type="text" placeholder="Last Name" class="w-full border px-3 py-2 rounded" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">E-Mail</label>
+            <input type="email" placeholder="E-Mail Address" class="w-full border px-3 py-2 rounded" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">Phone #</label>
+            <input type="tel" placeholder="(845)555-1212" class="w-full border px-3 py-2 rounded" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">Address</label>
+            <input type="text" placeholder="Address" class="w-full border px-3 py-2 rounded" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">City</label>
+            <input type="text" placeholder="City" class="w-full border px-3 py-2 rounded" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">State</label>
+            <select class="w-full border px-3 py-2 rounded">
+              <option>Please select your state</option>
+              <option>New York</option>
+              <option>California</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-1">Do you have hosting?</label>
+            <label><input type="radio" name="hosting" class="mr-1" /> Yes</label>
+            <label class="ml-4"><input type="radio" name="hosting" class="mr-1" /> No</label>
+          </div>
+          <div>
+            <label class="block text-sm font-medium">Project Description</label>
+            <textarea class="w-full border px-3 py-2 rounded" placeholder="Project Description"></textarea>
+          </div>
+          <button class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded">Send</button>
+        </form>
+    
+      </div>
+</body>
+</html>
