@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuilderZ - Construction Services</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header-top {
+            background-color: #f5c518;
+            padding: 10px 0;
+            color: #333;
+        }
+        .header-top .contact-info span {
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .navbar {
+            background-color: #1a2b49;
+        }
+        .navbar-brand {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #fff !important;
+        }
+        .navbar-nav .nav-link {
+            color: #fff !important;
+            margin-right: 15px;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #f5c518 !important;
+        }
+        .hero-section {
+            position: relative;
+            background: url('https://via.placeholder.com/1920x600?text=Construction+Site') no-repeat center center;
+            background-size: cover;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+        }
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .hero-section .btn {
+            margin-top: 20px;
+            background-color: #f5c518;
+            border: none;
+            padding: 10px 30px;
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .feature-section {
+            padding: 50px 0;
+        }
+        .feature-card {
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+        }
+        .feature-card:nth-child(1), .feature-card:nth-child(3) {
+            background-color: #1a2b49;
+        }
+        .feature-card:nth-child(2) {
+            background-color: #f5c518;
+            color: #333;
+        }
+        .feature-card h3 {
+            margin: 15px 0;
+            font-size: 1.5rem;
+        }
+        .feature-card p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Top -->
+    <div class="header-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <span class="navbar-brand">BuilderZ</span>
+                </div>
+                <div class="col-md-6 text-end contact-info">
+                    <span><i class="bi bi-clock"></i> OPENING HOUR: MON - FRI: 8:00 - 8:00</span>
+                    <span><i class="bi bi-telephone"></i> CALL US: +012 345 6789</span>
+                    <span><i class="bi bi-envelope"></i> EMAIL US: info@example.com</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">SERVICE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">TEAM</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">PROJECT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">PAGES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+                </ul>
+                <a href="#" class="btn btn-outline-light">GET A QUOTE</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div>
+            <h1>WE ARE PROFESSIONAL<br>FOR YOUR DREAM PROJECT</h1>
+            <a href="#" class="btn">GET A QUOTE</a>
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="feature-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <img src="https://via.placeholder.com/50?text=Icon" alt="Expert Worker Icon">
+                        <h3>EXPERT WORKER</h3>
+                        <p>Lorem ipsum dolor sit amet, elit. Phasus nec pretim ornare velit non.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <img src="https://via.placeholder.com/50?text=Icon" alt="Quality Work Icon">
+                        <h3>QUALITY WORK</h3>
+                        <p>Lorem ipsum dolor sit amet, elit. Phasus nec pretim ornare velit non.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <img src="https://via.placeholder.com/50?text=Icon" alt="24/7 Support Icon">
+                        <h3>24/7 SUPPORT</h3>
+                        <p>Lorem ipsum dolor sit amet, elit. Phasus nec pretim ornare velit non.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
