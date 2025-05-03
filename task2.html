@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .list-box {
+      border: 1px solid black;
+      width: 300px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .link-box {
+      border: 1px solid black;
+      background-color: #eee;
+      padding: 10px;
+      width: fit-content;
+    }
+  </style>
+</head>
+<body>
+
+<div class="list-box">
+  <p>Lists can be nested (list inside list):</p>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea
+      <ul>
+        <li>Black tea</li>
+        <li>Green tea</li>
+      </ul>
+    </li>
+    <li>Milk</li>
+  </ul>
+</div>
+
+<div class="link-box">
+  <p>Click any of the following links</p>
+  <a href="https://example.com" target="_blank">Opens in New</a> |
+  <a href="https://example.com" target="_self">Opens in Self</a> |
+  <a href="https://example.com" target="_parent">Opens in Parent</a> |
+  <a href="https://example.com" target="_top">Opens in Body</a>
+</div>
+
+</body>
+</html>
